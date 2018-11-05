@@ -2,15 +2,15 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let morgan = require('morgan');
 let pg = require('pg');
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3001;
 
 let pool = new pg.Pool({
     port: 5432,
-    password: '3b0bd31ff6abd3529bed11ee2e6dc4d7269dba1981a8249af7831d826e81f105',
-    database: 'd7chn33jb10jtb',
+    password: '1234',
+    database: 'mmartan_products',
     max: 10,
-    host: 'ec2-107-20-195-181.compute-1.amazonaws.com',
-    user: 'njdugwlvxlmzpi'
+    host: 'localhost',
+    user: 'postgres'
 });
 
 // let items = [

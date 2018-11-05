@@ -40,5 +40,5 @@ A API rodará na porta 3001 e a aplicação React na porta 3000 localhost.
 
 ## Demo
 
-Para visualizar a demo online acesse:
+Para visualizar a demo online acesse: **https://safe-cove-26654.herokuapp.com/**
 
