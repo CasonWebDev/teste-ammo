@@ -1,0 +1,17 @@
+{
+  "name": "teste-ammo",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/CasonWebDev/teste-ammo"
+    }
+  ]
+}
